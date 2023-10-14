@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <section class="Main-wraper">
+        <div class="wraper">
+            <div class="calculator-border">
+                <div class="display-input">
+                    <input id="input-values" type="text">
+                    <h3 id="result-value"> Calculator... </h3>
+                </div>
+                <div class="number-blocks">
+                    <ul>
+                        <li onclick="getNum19()" id="number-19"> <img src="https://api.iconify.design/ic:round-backspace.svg" alt=""></li>
+                        <li onclick="getNum17()" id="number-17">.</li>
+                        <li onclick="getNum18()" id="number-18">%</li>
+                        <li onclick="clr()" id="clear-input">AC</li>
+                    </ul>
+                    <ul>
+                        <li onclick="getNum1()" id="number-1">1</li>
+                        <li onclick="getNum2()" id="number-2">2</li>
+                        <li onclick="getNum3()" id="number-3">3</li>
+                        <li onclick="getNum4()" id="number-4">/</li>
+                        <!-- &divide; -->
+                    </ul>
+                    <ul>
+                        <li onclick="getNum5()" id="number-5">4</li>
+                        <li onclick="getNum6()" id="number-6">5</li>
+                        <li onclick="getNum7()" id="number-7">6</li>
+                        <li onclick="getNum8()" id="number-8">*</li> 
+                        <!-- &times; -->
+                    </ul>
+                    <ul>
+                        <li onclick="getNum9()" id="number-9">7</li>
+                        <li onclick="getNum10()" id="number-10">8</li>
+                        <li onclick="getNum11()" id="number-11">9</li>
+                        <li onclick="getNum12()" id="number-12">-</li>
+                    </ul>
+                    <ul>
+                        <li onclick="getNum13()" id="number-13">0</li>
+                        <li onclick="getNum14()" id="number-14">00</li>
+                        <li onclick="getNum15()" id="number-15">=</li>
+                        <li onclick="getNum16()" id="number-16">+</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
